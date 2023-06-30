@@ -1,6 +1,7 @@
-ul li{
+nav>ul li{
     display: inline-block; 
     border: 2px solid black; 
+    position: relative;
     margin-top: 0;
     padding: 15px 15px 15px 15px;
     width: 150px; 
