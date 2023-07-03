@@ -7,3 +7,15 @@ nav>ul li{
     width: 150px; 
     text-align: center;
 }
+nav ul>li ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+nav ul ul li {
+    float:none;
+}
+/*special hover to display the drop-down*/
+nav>ul>li:hover>ul{
+    display: block;
+}
