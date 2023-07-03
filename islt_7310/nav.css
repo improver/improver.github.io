@@ -1,5 +1,6 @@
 nav {
-    top: 0px;   
+    top: 0px;
+    width: 100%;   
 }
 nav ul {
     list-style-type: none;
@@ -31,4 +32,13 @@ nav ul ul li {
 /*special hover to display the drop-down*/
 nav>ul>li:hover>ul{
     display: block;
+}
+nav a:link{
+    background-color: white;
+}
+nav a:hover, nav a:focus {
+    background-color: rgb(193, 224, 196);
+}
+nav a:active{
+    background-color: rgb(105, 238, 120);
 }
