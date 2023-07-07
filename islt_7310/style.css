@@ -39,7 +39,7 @@ div {
     "content2"
     "footer"
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 421px) {
    .wrapper {
     grid-template-columns: 50% auto;
     grid-template-areas:
@@ -49,3 +49,14 @@ div {
     "footer footer";
    }
 }
+@media screen and (max-width: 420px) {
+    .wrapper {
+     grid-template-columns: 100%;
+     grid-template-areas:
+     "header"
+     "nav"
+     "content1"
+     "content2"
+     "footer";
+    }
+ }
