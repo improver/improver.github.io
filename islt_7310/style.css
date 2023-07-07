@@ -14,3 +14,38 @@ div {
     bottom: 0;
     width: 100%;
    }
+.header {
+    grid-area: header;
+}
+.nav {
+    grid-area: nav;
+}
+.content1 {
+    grid-area: content1;
+}
+.content2 {
+    grid-area: content2;
+}
+.footer {
+    grid-area: footer;
+}
+.wrapper {
+    display:grid;
+    grid-gap: 10px;
+    grid-template-areas:
+    "header"
+    "nav"
+    "content1"
+    "content2"
+    "footer"
+}
+@media screen and (min-width: 500px) {
+   .wrapper {
+    grid-template-columns: 50% auto;
+    grid-template-areas:
+    "header header"
+    "nav nav"
+    "content1 content2"
+    "footer footer";
+   }
+}

@@ -18,46 +18,50 @@ Developed: June 16, 2023
     <title>About</title>
 </head>
 <body>
-    <header>
-        <h1>Eric Wright</h1>
-    </header>
-    <nav>
-        <table style="width:100%">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="learn.html">Learn</a>
-                    <ul>
-                        <li><a href="#Link1.html">Link 1</a></li>
-                        <li><a href="#Link2.html">Link 2</a></li>
-                        <li><a href="#Link3.html">Link 3</a></li>
-                    </ul>
-                </li>
-                <li><a href="references.html">References</a></li>
-                <li><a href="#contact.html">Contact</a></li>
-            </ul>
-        </table>
-    </nav>
-    <main>
-        <h3>Who <em>is</em> this dude?</h3>
-        <p>
-            I have a B.S. in Computer Information Systems from Columbia College. It seems to me that it would take some mental gymnastics to rationalize that as being somehow relevant to someone seeking to be any sort of authority on the topic of lawn care. Perhaps you could argue that the education assisted with some sort of systematic, analytic way of thinking about a topic and that I apply this toward lawn care. 
-            <br>
-            <em>I’m not sure if that’s true, though.</em>
-            <br>
-            I have been doing yard work in various capacities, though, for the past <strong>30 years</strong> - as a child doing chores, as a person doing odd-jobs for money, as an employee tasked with caring for an outdoor customer-facing space, and as a homeowner maintaining their property.
-        </p>
-        <blockquote>
-            A jack of all trades and a master of none.
-        </blockquote>
-        <a href="WrightResume.pdf">Link to my resume.</a>
-    </main>
-    <footer id="footer">
-        <p>
-            Eric Wright | wrighteri@umsystem.edu
-            <br>
-            <em>&copy; 2023 Eric Wright. All rights reserved.</em>
-        </p>
-    </footer>
+    <div class="wrapper">
+        <header class="box header">
+            <h1>Eric Wright</h1>
+        </header>
+        <nav class="box nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="learn.html">Learn</a>
+                        <ul>
+                            <li><a href="#Link1.html">Link 1</a></li>
+                            <li><a href="#Link2.html">Link 2</a></li>
+                            <li><a href="#Link3.html">Link 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="references.html">References</a></li>
+                    <li><a href="#contact.html">Contact</a></li>
+                </ul>
+        </nav>
+        <!--<main>-->
+            <div class="box content1">
+                <h3>Who <em>is</em> this dude?</h3>
+                <p>
+                    I have a B.S. in Computer Information Systems from Columbia College. It seems to me that it would take some mental gymnastics to rationalize that as being somehow relevant to someone seeking to be any sort of authority on the topic of lawn care. Perhaps you could argue that the education assisted with some sort of systematic, analytic way of thinking about a topic and that I apply this toward lawn care. 
+                    <br>
+                    <em>I’m not sure if that’s true, though.</em>
+                    <br>
+                    I have been doing yard work in various capacities, though, for the past <strong>30 years</strong> - as a child doing chores, as a person doing odd-jobs for money, as an employee tasked with caring for an outdoor customer-facing space, and as a homeowner maintaining their property.
+                </p>
+            </div>
+            <div class="box content2">
+                <blockquote>
+                    A jack of all trades and a master of none.
+                </blockquote>
+                <a href="WrightResume.pdf">Link to my resume.</a>
+            </div>
+        <!--</main>-->
+        <footer class="box footer">
+            <p>
+                Eric Wright | wrighteri@umsystem.edu
+                <br>
+                <em>&copy; 2023 Eric Wright. All rights reserved.</em>
+            </p>
+        </footer>
+    </div>
 </body>
 </html>
