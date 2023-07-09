@@ -13,8 +13,10 @@ Developed: June 16, 2023
 <html lang="en-US">
 <head>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="nav.css">               
+    <link rel="stylesheet" href="nav.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">              
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
 </head>
 <body>
@@ -23,18 +25,19 @@ Developed: June 16, 2023
             <h1>Eric Wright</h1>
         </header>
         <nav class="box nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="learn.html">Learn</a>
-                        <ul>
-                            <li><a href="#Link1.html">Link 1</a></li>
-                            <li><a href="#Link2.html">Link 2</a></li>
-                            <li><a href="#Link3.html">Link 3</a></li>
+                <ul class="menu">
+                    <li class="item"><a href="index.html">Home</a></li>
+                    <li class="item"><a href="about.html">About</a></li>
+                    <li class="item has-submenu"><a href="learn.html">Learn</a>
+                        <ul class="submenu">
+                            <li class="subitem"><a href="#Link1.html">Link 1</a></li>
+                            <li class="subitem"><a href="#Link2.html">Link 2</a></li>
+                            <li class="subitem"><a href="#Link3.html">Link 3</a></li>
                         </ul>
                     </li>
-                    <li><a href="references.html">References</a></li>
-                    <li><a href="#contact.html">Contact</a></li>
+                    <li class="item"><a href="references.html">References</a></li>
+                    <li class="item"><a href="#contact.html">Contact</a></li>
+                    <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
                 </ul>
         </nav>
         <!--<main>-->
@@ -63,5 +66,6 @@ Developed: June 16, 2023
             </p>
         </footer>
     </div>
+    <script src="script.js"></script>    
 </body>
 </html>
