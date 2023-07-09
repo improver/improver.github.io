@@ -13,39 +13,48 @@ Developed: June 16, 2023
 <html lang="en-US">
 <head>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="nav.css">              
+    <link rel="stylesheet" href="nav.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">              
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">             
     <meta charset="utf-8">
-    <title>title</title>
+    <title>Let's Learn</title>
 </head>
 <body>
-    <header>
+    <div class="wrapper">
+        <header class="box header">
         <h1>Let's Learn</h1>
     </header>
-    <nav>
-        <table style="width:100%">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="learn.html">Learn</a>
-                    <ul>
-                        <li><a href="#Link1.html">Link 1</a></li>
-                        <li><a href="#Link2.html">Link 2</a></li>
-                        <li><a href="#Link3.html">Link 3</a></li>
-                    </ul>
-                </li>
-                <li><a href="references.html">References</a></li>
-                <li><a href="#contact.html">Contact</a></li>
-            </ul>
-        </table>
-    </nav>
-    <main>
-    </main>
-    <footer id="footer">
+    <nav class="box nav">
+        <ul class="menu">
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="about.html">About</a></li>
+            <li class="item has-submenu"><a href="learn.html">Learn</a>
+                <ul class="submenu">
+                    <li class="subitem"><a href="#Link1.html">Link 1</a></li>
+                    <li class="subitem"><a href="#Link2.html">Link 2</a></li>
+                    <li class="subitem"><a href="#Link3.html">Link 3</a></li>
+                </ul>
+            </li>
+            <li class="item"><a href="references.html">References</a></li>
+            <li class="item"><a href="#contact.html">Contact</a></li>
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+        </ul>
+</nav>
+    <!--<main>-->
+        <div class="box content1">
+            <p>
+                This section will contain three sections of learning content.
+            </p>
+        </div>
+    <!--</main>-->
+    <footer class="box footer">
         <p>
             Eric Wright | wrighteri@umsystem.edu
             <br>
             <em>&copy; 2023 Eric Wright. All rights reserved.</em>
         </p>
     </footer>
+    </div>
+    <script src="script.js"></script>    
 </body>
 </html>

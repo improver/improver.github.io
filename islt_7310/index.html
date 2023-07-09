@@ -13,43 +13,49 @@ Developed: June 16, 2023
 <html lang="en-US">
 <head>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="nav.css">             
+    <link rel="stylesheet" href="nav.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">              
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">         
     <meta charset="utf-8">
     <title>Home Page</title>
 </head>
 <body>
-    <header>
-        <h1>Home Page</h1>
-    </header>
-    <nav>
-        <table style="width:100%">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="learn.html">Learn</a>
-                    <ul>
-                        <li><a href="#Link1.html">Link 1</a></li>
-                        <li><a href="#Link2.html">Link 2</a></li>
-                        <li><a href="#Link3.html">Link 3</a></li>
+    <div class="wrapper">
+        <header class="box header">
+            <h1>Home Page</h1>
+        </header>
+        <nav class="box nav">
+            <ul class="menu">
+                <li class="item"><a href="index.html">Home</a></li>
+                <li class="item"><a href="about.html">About</a></li>
+                <li class="item has-submenu"><a href="learn.html">Learn</a>
+                    <ul class="submenu">
+                        <li class="subitem"><a href="#Link1.html">Link 1</a></li>
+                        <li class="subitem"><a href="#Link2.html">Link 2</a></li>
+                        <li class="subitem"><a href="#Link3.html">Link 3</a></li>
                     </ul>
                 </li>
-                <li><a href="references.html">References</a></li>
-                <li><a href="#contact.html">Contact</a></li>
+                <li class="item"><a href="references.html">References</a></li>
+                <li class="item"><a href="#contact.html">Contact</a></li>
+                <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
             </ul>
-        </table>
-    </nav>
-    <main>
+        </nav>
+        <!--main-->
+        <div class="box content1">    
         <h3>Hello and welcome to this site about my lawn care philosophy.</h3>
-        <p>
-            This site exists mostly as an outlet for me to express thoughts and ideas that I have had about caring for various outdoor spaces. I am not trying to tell anyone how to do anything in particular only sharing thoughts about, and methods for, doing yard work. There are many ways to approach this practice, I will share my personal perspective as it exists currently. I hope to present you with a different perspective, a new idea that resonates, maybe a method that allows you modify something in your current process - something that will provide a motivational spark in your world, as you exert your influence on a natural space.
-        </p>
-    </main>
-    <footer id="footer">
-        <p>
-            Eric Wright | wrighteri@umsystem.edu
-            <br>
-            <em>&copy; 2023 Eric Wright. All rights reserved.</em>
-        </p>
-    </footer>
+            <p>
+                This site exists mostly as an outlet for me to express thoughts and ideas that I have had about caring for various outdoor spaces. I am not trying to tell anyone how to do anything in particular only sharing thoughts about, and methods for, doing yard work. There are many ways to approach this practice, I will share my personal perspective as it exists currently. I hope to present you with a different perspective, a new idea that resonates, maybe a method that allows you modify something in your current process - something that will provide a motivational spark in your world, as you exert your influence on a natural space.
+            </p>
+        </div>
+        <!--</main>-->
+        <footer class="box footer">
+            <p>
+                Eric Wright | wrighteri@umsystem.edu
+                <br>
+                <em>&copy; 2023 Eric Wright. All rights reserved.</em>
+            </p>
+        </footer>
+    </div>
+    <script src="script.js"></script> 
 </body>
 </html>

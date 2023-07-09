@@ -13,34 +13,36 @@ Developed: June 16, 2023
 <html lang="en-US">
 <head>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="nav.css">                         
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">              
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">                         
     <meta charset="utf-8">
     <title>Resources & References</title>
 </head>
 <body>
-    <header>
+    <div class="wrapper">
+    <header class="box header">
         <h1>Resources & References</h1>
     </header>
-    <nav>
-        <table style="width:100%">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="learn.html">Learn</a>
-                <ul>
-                    <li><a href="#Link1.html">Link 1</a></li>
-                    <li><a href="#Link2.html">Link 2</a></li>
-                    <li><a href="#Link3.html">Link 3</a></li>
+    <nav class="box nav">
+        <ul class="menu">
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="about.html">About</a></li>
+            <li class="item has-submenu"><a href="learn.html">Learn</a>
+                <ul class="submenu">
+                    <li class="subitem"><a href="#Link1.html">Link 1</a></li>
+                    <li class="subitem"><a href="#Link2.html">Link 2</a></li>
+                    <li class="subitem"><a href="#Link3.html">Link 3</a></li>
                 </ul>
             </li>
-            <li><a href="references.html">References</a></li>
-            <li><a href="#contact.html">Contact</a></li>
+            <li class="item"><a href="references.html">References</a></li>
+            <li class="item"><a href="#contact.html">Contact</a></li>
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
         </ul>
-    </table>
-    </nav>
-    <main>
+</nav>
+    <!--<main>-->
         
-        <div>
+        <div class="box content1">
             <p>
                 This page contains citations to works used on the Let's Learn page. I have also included some interesting links in the Resources section for anyone seeking some additional lawntent (lawn & garden content).
             </p>
@@ -48,6 +50,8 @@ Developed: June 16, 2023
             <p>
                 Links to external resources will eventually go here
             </p>
+        </div>
+        <div class="box content2">
             <h3>References</h3>
             <ol>
                 <li>Fresenburg, Brad S. <cite>“Natural Lawn Care.”</cite> University of Missouri Extension, Aug. 2007, extension.missouri.edu/publications/g6749.</li>
@@ -57,7 +61,7 @@ Developed: June 16, 2023
                 <li>The Good, David. <cite>Recreating Terra Preta: Good Soil for Centuries!</cite> YouTube, 10 Mar. 2021, https://youtu.be/DnTaWiO5Eso. Accessed 11 June 2023.</li>
             </ol>
         </div>
-    </main>
+    <!--</main>-->
     <footer id="footer">
         <p>
             Eric Wright | wrighteri@umsystem.edu
@@ -65,5 +69,7 @@ Developed: June 16, 2023
             <em>&copy; 2023 Eric Wright. All rights reserved.</em>
         </p>
     </footer>
+    </div>
+<script src="script.js"></script>    
 </body>
 </html>
