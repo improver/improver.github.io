@@ -65,10 +65,8 @@ div {
     .nav {
         display: none;
     }
-    * {
-        color: #000;
-    }
     body {
+        color: #000;
         font-family: 'Times New Roman', serif;
     }
     .header h1{
