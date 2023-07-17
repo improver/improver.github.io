@@ -65,7 +65,7 @@ div {
     .nav {
         display: none;
     }
-    body *{
+    body {
         color: #000;
         font-family: 'Times New Roman', serif;
     }
