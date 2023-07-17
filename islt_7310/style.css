@@ -16,6 +16,7 @@ div {
    }
 .header {
     grid-area: header;
+    font-family: 'Roboto', sans-serif;
 }
 .nav {
     grid-area: nav;
@@ -60,3 +61,19 @@ div {
      "footer";
     }
  }*/
+ @media print {
+    .nav {
+        display: none;
+    }
+    body {
+        color: #000;
+        font-family: 'Times New Roman', serif;
+    }
+    .header h1{
+        grid-area: header;
+        font-family: 'Roboto', sans-serif;
+    }
+    @page {
+        margin: 1in;;
+    }
+ }
