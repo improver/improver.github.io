@@ -65,8 +65,11 @@ div {
     .nav {
         display: none;
     }
-    body {
+    *{
         color: #000;
+    }
+    body {
+        
         font-family: 'Times New Roman', serif;
     }
     .header h1{
