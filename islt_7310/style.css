@@ -78,6 +78,6 @@ div {
         font-family: 'Roboto', sans-serif;
     }
     @page {
-        margin: 1in;
+        margin: 1in 1in 1in 1in;
     }
  }
