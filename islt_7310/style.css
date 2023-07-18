@@ -67,11 +67,11 @@ div {
     }
     body,
     .box, 
-    .header, 
+    .header h1, 
     .content1, 
     .content2, 
     .footer {
-        color: #000 !important; 
+        color: #000; 
         font-family: 'Times New Roman', serif;
     }
     .header h1{
