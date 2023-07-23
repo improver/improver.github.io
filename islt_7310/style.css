@@ -29,6 +29,8 @@ div {
 }
 .footer {
     grid-area: footer;
+    background-image: url("images/footer_back.png");
+    background-size: cover;
 }
 .wrapper {
     display:grid;
