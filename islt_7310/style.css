@@ -32,6 +32,9 @@ div {
     background-image: url("images/footer_back.png");
     background-size: cover;
 }
+#contact_icons{
+    width: 16px;
+}
 .wrapper {
     display:grid;
     grid-gap: 10px;
