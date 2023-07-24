@@ -64,7 +64,7 @@ p a:active {
     "content2"
     "footer"
 }
-table #table1 {
+table#table1 {
     text-align: center;
     width: 80%;
     margin-left: 10%;
@@ -107,7 +107,7 @@ td a:active {
     "content1 content2"
     "footer footer";
    }
-   table #table1 {
+   table#table1 {
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
