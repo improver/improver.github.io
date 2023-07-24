@@ -6,12 +6,12 @@ function toggleMenu() {
         menu.classList.remove("active");
         
         // adds the menu (hamburger) icon 
-        toggle.querySelector("a").innerHTML = "<i class=’fas fa-bars’></i>";
+        toggle.querySelector("a").innerHTML = "<i class='fas fa-bars'></i>";
     } else {
         menu.classList.add("active");
         
         // adds the close (x) icon 
-        toggle.querySelector("a").innerHTML = "<i class=’X’></i>";
+        toggle.querySelector("a").innerHTML = "<i class='X'></i>";
     }
 }
 /* Event Listener */
