@@ -64,6 +64,25 @@ p a:active {
     "content2"
     "footer"
 }
+table #table1 {
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px solid #000;
+}
+tr:nth-child(odd){
+    background-color: #ddddddcb;
+}
+th {
+    background-color: #074407;
+    color: #fff;
+    text-align: left;
+}
+tr {
+    font-size: 14px;
+}
+
 @media screen and (min-width: 421px) {
    .wrapper {
     grid-template-columns: 50% auto;
@@ -73,6 +92,14 @@ p a:active {
     "content1 content2"
     "footer footer";
    }
+   table #table1 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+tr {
+    font-size: 12px;
+}
 }
 /*@media screen and (max-width: 420px) {
     .wrapper {
