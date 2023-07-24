@@ -1,11 +1,11 @@
 <!--
 *****************************************************************************
 
-Title:  Home Page
-Use:  Site home page - index.html
+Title:  Contact
+Use:  A form to use for user input
 Author:  Eric Wright
 School/Term:  University of Missouri, Summer 2023
-Developed: June 16, 2023
+Developed: July 24, 2023
 
 ******************************************************************************
 -->
@@ -21,12 +21,12 @@ Developed: June 16, 2023
     <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+               <title>Contact</title>
 </head>
 <body>
     <div class="wrapper">
         <header class="box header">
-            <h1>Home Page</h1>
+            <h1>Contact</h1>
         </header>
         <nav class="box nav">
             <ul class="menu">
@@ -46,12 +46,28 @@ Developed: June 16, 2023
         </nav>
         <!--main-->
         <div class="box content1">    
-        <h3>Hello and welcome to this site about my lawn care philosophy.</h3>
-            <p>
-                This site exists mostly as an outlet for me to express thoughts and ideas that I have had about caring for various outdoor spaces. I am not trying to tell anyone how to do anything in particular only sharing thoughts about, and methods for, doing yard work. There are many ways to approach this practice, I will share my personal perspective as it exists currently. I hope to present you with a different perspective, a new idea that resonates, maybe a method that allows you modify something in your current process - something that will provide a motivational spark in your world, as you exert your influence on a natural space.
-            </p>
+            <form action="mailto:wright.eric.n@gmail.com?Subject=Educational%20Website%20Contact" method="GET" enctype="text/plain">
+                <div>
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="fname" required placeholder="First name...">
+                </div>
+                <div>
+                    <label for="lname">First Name</label>
+                    <input type="text" name="lname" id="lname" required placeholder="Last name...">
+                </div>
+                <div>
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email" required placeholder="Email...">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required>Your message goes here...</textarea>
+                </div>
+                <button id="form-button" type="reset">Reset</button>
+                <button id="form-button" type="submit">Submit</button>
+            </form>
         </div>
-        <!--</main>-->
+        
         <footer class="box footer">
             <p>
                 Eric Wright | <img id="contact_icons" src="images/mail.png" alt="email"> wrighteri@umsystem.edu | <img id="contact_icons" src="images/phone.png" alt="phone"> 1+888-888-8888
