@@ -92,7 +92,8 @@ a {
     padding: 10px 15px;
 }
 .submenu-active {
-    background-color: #409658;
+    background-color: #111;
+    ;
     border-radius: 3px;
 }
 
