@@ -36,6 +36,9 @@ div {
     -webkit-transition:width 0.3s linear 0s;
     transition: width 0.3s linear 0s;
 }
+#headsht{
+    width:200;
+}
 p a:link {
     text-decoration: none;
     color: #006600;
