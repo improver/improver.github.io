@@ -97,7 +97,7 @@ td a:active {
     text-decoration: underline;
     color: #12ce12;
   }
-#learn-pics {
+img#learn-pics {
     width: 200px;
 }
 @media screen and (min-width: 421px) {
@@ -117,7 +117,7 @@ td a:active {
 tr {
     font-size: 12px;
 }
-#learn-pics {
+img#learn-pics {
     width: 300px;
 }
 }
