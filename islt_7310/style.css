@@ -37,7 +37,7 @@ div {
     transition: width 0.3s linear 0s;
 }
 #headsht{
-    width:200;
+    width:200px;
 }
 p a:link {
     text-decoration: none;
