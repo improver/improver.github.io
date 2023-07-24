@@ -97,7 +97,9 @@ td a:active {
     text-decoration: underline;
     color: #12ce12;
   }
-
+#learn-pics {
+    width: 200px;
+}
 @media screen and (min-width: 421px) {
    .wrapper {
     grid-template-columns: 50% auto;
@@ -114,6 +116,9 @@ td a:active {
 }
 tr {
     font-size: 12px;
+}
+#learn-pics {
+    width: 300px;
 }
 }
 /*@media screen and (max-width: 420px) {
