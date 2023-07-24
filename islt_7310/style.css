@@ -1,9 +1,4 @@
 h1{color: #006600;}
-p:first-of-type::first-letter{
-    font-size: 150%;
-    font-weight: bold;
-    color: #006600;
-}
 p{
     text-indent: 20px;
 }
