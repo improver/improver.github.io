@@ -35,6 +35,21 @@ div {
     -webkit-transition:width 0.3s linear 0s;
     transition: width 0.3s linear 0s;
 }
+p a:link {
+    text-decoration: none;
+    color: #006600;
+  }
+p a:visited {
+    text-decoration: none;
+    color: #074407;
+  }
+p a:hover {
+    text-decoration: underline;
+  }
+p a:active {
+    text-decoration: underline;
+    color: #12ce12;
+  }
 .wrapper {
     display:grid;
     grid-gap: 10px;
