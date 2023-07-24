@@ -82,6 +82,21 @@ th {
 tr {
     font-size: 14px;
 }
+td a:link {
+    text-decoration: none;
+    color: #006600;
+  }
+td a:visited {
+    text-decoration: none;
+    color: #074407;
+  }
+td a:hover {
+    text-decoration: underline;
+  }
+td a:active {
+    text-decoration: underline;
+    color: #12ce12;
+  }
 
 @media screen and (min-width: 421px) {
    .wrapper {
